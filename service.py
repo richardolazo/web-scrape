@@ -15,3 +15,5 @@ for n in range(1, 51):
         if len(book.select('.star-rating.Two')) != 0:
             book_title = book.select('a')[1]['title']
             two_star_titles.append(book_title)
+
+print(two_star_titles)
